@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/footer.astro';
+---
+
+<Layout>
+    <!-- Navbar -->
+    <Nav />
+
+    <!-- Main Content with responsive background -->
+    <div class="flex flex-col items-start justify-center text-white min-h-screen"
+         style="background-image: url('https://u.cubeupload.com/orilin_2024/qualityrestoration20.jpg'); 
+                background-size: cover; 
+                background-repeat: no-repeat; 
+                background-position: center; padding-left: 2rem;">
+        <h1 class="text-5xl font-bold text-white" style="font-family: 'Inter', sans-serif;">
+            <span class="text-6xl">WELCOME TO</span> <br />
+            <span class="text-6xl">KENDRICK LAMAR'S</span> <br />
+            <span class="text-6xl">WEBSITE.</span>
+        </h1>
+    </div>
+
+    <Footer /> 
+</Layout>
